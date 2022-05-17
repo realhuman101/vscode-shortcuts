@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visual Studio Code Keybord Shortcuts</title>
+    <meta
+      name="twitter:image:src"
+      content="https://repository-images.githubusercontent.com/183981860/42284300-6a7a-11e9-8801-572f40cc9296"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Visual Studio Code Keybord Shortcuts" />
+    <meta
+      property="og:image"
+      content="https://repository-images.githubusercontent.com/183981860/42284300-6a7a-11e9-8801-572f40cc9296"
+    />
+    <meta property="og:type" content="object" />
+    <meta property="og:title" content="Visual Studio Code Keybord Shortcuts" />
+    <style>
+      html {
+        font-size: .8vw;
+      }
+      * {
+        box-sizing: content-box;
+        font-family: 'Nunito', sans-serif;
+        letter-spacing: .2px;
+      }
+      body {
+        background-color: hsl(204, 80%, 7.5%);
+        color: rgba(255, 255, 255, 0.5);
+        font-family: 'Segoe UI';
+        margin: 0;
+        line-height: 1.3;
+        display: flex;
+        min-height: 100vh;
+      }
+      #wrap {
+        padding: 1vw;
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        flex: 1 1 auto;
+      }
+      .column {
+        width: 30%;
+        overflow-y: auto;
+      }
+      .logo-title {
+        display: flex;
+        align-items: center;
+        padding: 0 0 1vw;
+      }
+      .logo {
+        width: 5vw;
+      }
+      .title {
+        flex: 1 1 auto;
+      }
+      h1,
+      h2 {
+        margin: 0;
+        text-align: center;
+        font-weight: normal;
+      }
+      h1 {
+        font-size: 3rem;
+      }
+      h2 {
+        font-size: 2rem;
+      }
+      h3 {
+        border-bottom: 1px solid rgba(255, 255, 255, .3);
+        margin-bottom: 0.5vw;
+      }
+      .shortcut {
+        border-collapse: collapse;
+        width: 100%;
+        table-layout: fixed;
+      }
+      .shortcut th {
+        text-align: left;
+        width: 35%;
+        font-weight: normal;
+      }
+      .shortcut tr:nth-child(odd) {
+        background-color: rgba(255, 255, 255, .05);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="wrap">
+      <div class="column">
+        <h3>General</h3>
+        <table class="shortcut">
+          <tbody>
+            <tr>
+              <th>⇧⌘P, F1</th>
+              <td>Show Command Palette</td>
+            </tr>
+            <tr>
+              <th>⌘P</th>
+              <td>Quick Open, Go to File…</td>
+            </tr>
+            <tr>
+              <th>⇧⌘N</th>
+              <td>New window / instance</td>
+            </tr>
+            <tr>
+              <th>⌘W</th>
+              <td>Close window / instance</td>
+            </tr>
+            <tr>
+              <th>⌘,</th>
+              <td>User Settings</td>
+            </tr>
+            <tr>
+              <th>⌘K ⌘S</th>
+              <td>Keyboard Shortcuts</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Basic editing</h3>
+        <table class="shortcut">
+          <tbody>
+            <tr>
+              <th>⌘X</th>
+              <td>Cut line (empty selection)</td>
+            </tr>
+            <tr>
+              <th>⌘C</th>
+              <td>Copy line (empty selection)</td>
+            </tr>
+            <tr>
+              <th>⌥↓ / ⌥↑</th>
+              <td>Move line up / down</td>
+            </tr>
+            <tr>
+              <th>⇧⌥↓ / ⇧⌥↑</th>
+              <td>Copy line up / down</td>
+            </tr>
+            <tr>
+              <th>⇧⌘K</th>
+              <td>Delete line</td>
+            </tr>
+            <tr>
+              <th>⌘Enter / ⇧⌘Enter</th>
+              <td>Insert line below / above</td>
+            </tr>
+            <tr>
+              <th>⇧⌘\</th>
+              <td>Jump to matching bracket</td>
+            </tr>
+            <tr>
+              <th>⌘] / ⌘[</th>
+              <td>Indent / outdent line</td>
+            </tr>
+            <tr>
+              <th>Home / End</th>
+              <td>Go to beginning / end of line</td>
+            </tr>
+            <tr>
+              <th>⌘↑ / ⌘↓ </th>
+              <td>Go to beginning / end of file</td>
+            </tr>
+            <tr>
+              <th>⌃PgUp / ⌃PgDn</th>
+              <td>Scroll line up / down</td>
+            </tr>
+            <tr>
+              <th>⌘PgUp /⌘PgDn</th>
+              <td>Scroll page up / down</td>
+            </tr>
+            <tr>
+              <th>⌥⌘[ / ⌥⌘]</th>
+              <td>Fold / unfold region</td>
+            </tr>
+            <tr>
+              <th>⌘K ⌘[ / ⌘K ⌘]</th>
+              <td>Fold / unfold all subregions</td>
+            </tr>
+            <tr>
+              <th>⌘K ⌘0 / ⌘K ⌘J</th>
+              <td>Fold / unfold all regions</td>
+            </tr>
+            <tr>
+              <th>⌘K ⌘C</th>
+              <td>Add line comment</td>
+            </tr>
+            <tr>
+              <th>⌘K ⌘U</th>
+              <td>Remove line comment</td>
+            </tr>
+            <tr>
+              <th>⌘/</th>
+              <td>Toggle line comment</td>
+            </tr>
+            <tr>
+              <th>⇧⌥A</th>
+              <td>Toggle block comment</td>
+            </tr>
+            <tr>
+              <th>⌥Z</th>
+              <td>Toggle word wrap</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Navigation</h3>
+
+        <table class="shortcut">
+          <tbody>
+            <tr>
+              <th>⌘T</th>
+              <td>Show all Symbols</td>
+            </tr>
+            <tr>
+              <th>⌃G</th>
+              <td>Go to Line...</td>
+            </tr>
+            <tr>
+              <th>⌘P</th>
+              <td>Go to File...</td>
+            </tr>
+            <tr>
+              <th>⇧⌘O</th>
+              <td>Go to Symbol...</td>
+            </tr>
+            <tr>
+              <th>⇧⌘M</th>
+              <td>Show Problems panel</td> 
+            </tr>
+            <tr>
+              <th>F8 / ⇧F8</th>
+              <td>Go to next / previous error or warning</td>
+            </tr>
+            <tr>
+              <th>⌃⇧Tab</th>
+              <td>Navigate editor group history</td>
+            </tr>
+            <tr>
+              <th>⌃- / ⌃⇧-</th>
+              <td>Go back / forward</td>
+            </tr>
+            <tr>
+              <th>⌃⇧M</th>
+              <td>Toggle Tab moves focus</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Integrated terminal</h3>
+
+        <table class="shortcut">
+          <tbody>
+            <tr>
+              <th>⌃`</th>
+              <td>Show integrated terminal</td>
+            </tr>
+            <tr>
+              <th>⌃⇧`</th>
+              <td>Create new terminal</td>
+            </tr>
+            <tr>
+              <th>⌘C</th>
+              <td>Copy selection</td>
+            </tr>
+            <tr>
+              <th>⌘↑ / ↓ </th>
+              <td>Scroll up / down</td>
+            </tr>
+            <tr>
+              <th>PgUp / PgDn</th>
+              <td>Scroll page up / down</td>
+            </tr>
+            <tr>
+              <th>⌘Home / End</th>
+              <td>Scroll to top / bottom</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="column">
+        <div class="logo-title">
+          <svg
+            class="logo"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <defs>
+              <style>
+                .icon-canvas-transparent {
+                  fill: #f6f6f6;
+                  opacity: 0;
+                }
+                .icon-white {
+                  fill: rgb(0, 122, 204);
+                  opacity: .75;
+                }
+              </style>
+            </defs>
+            <title>BrandVisualStudioCode2017RTW_24x_white_24x</title>
+            <path class="icon-canvas-transparent" d="M24,0V24H0V0Z" />
+            <path
+              class="icon-white"
+              d="M24,2.5V21.5L18,24,0,18.5v-.561l18,1.545V0ZM1,13.111,4.385,10,1,6.889l1.418-.827L5.853,8.65,12,3l3,1.456V15.544L12,17,5.853,11.35,2.419,13.939ZM7.644,10,12,13.283V6.717Z"
+            />
+          </svg>
+          <div class="title">
+            <h1>Visual Studio Code</h1>
+            <h2>Keyboard shortcuts for macOS</h2>
+          </div>
+        </div>
+        <h3>Search and replace</h3>
+
+        <table class="shortcut">
+          <tbody>
+            <tr>
+              <th>⌘F</th>
+              <td>Find</td>
+            </tr>
+            <tr>
+              <th>⌥⌘F</th>
+              <td>Replace</td>
+            </tr>
+            <tr>
+              <th>⌘G / ⇧⌘G</th>
+              <td>Find next / previous</td>
+            </tr>
+            <tr>
+              <th>⌥Enter</th>
+              <td>Select all occurences of Find match</td>
+            </tr>
+            <tr>
+              <th>⌘D</th>
+              <td>Add selection to next Find match</td>
+            </tr>
+            <tr>
+              <th>⌘K ⌘D</th>
+              <td>Move last selection to next Find match</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Multi-cursor and selection</h3>
+
+        <table class="shortcut">
+          <tbody>
+            <tr>
+              <th>⌥ + click</th>
+              <td>Insert cursor</td>
+            </tr>
+            <tr>
+              <th>⌥⌘↑</th>
+              <td>Insert cursor above</td>
+            </tr>
+            <tr>
+              <th>⌥⌘↓</th>
+              <td>Insert cursor below</td>
+            </tr>
+            <tr>
+              <th>⌘U</th>
+              <td>Undo last cursor operation</td>
+            </tr>
+            <tr>
+              <th>⇧⌥I</th>
+              <td>Insert cursor at end of each line selected</td>
+            </tr>
+            <tr>
+              <th>⌘L</th>
+              <td>Select current line</td>
+            </tr>
+            <tr>
+              <th>⇧⌘L</th>
+              <td>Select all occurrences of current selection</td>
+            </tr>
+            <tr>
+              <th>⌘F2</th>
+              <td>Select all occurrences of current word</td>
+            </tr>
+            <tr>
+              <th>⌃⇧⌘→ / ←</th>
+              <td>Expand / shrink selection</td>
+            </tr>
+            <tr>
+              <th>⇧⌥ + drag mouse</th>
+              <td>Column (box) selection</td>
+            </tr>
+            <tr>
+              <th>⇧⌥⌘↑ / ↓</th>
+              <td>Column (box) selection up / down</td>
+            </tr>
+            <tr>
+              <th>⇧⌥⌘← / →</th>
+              <td>Column (box) selection left / right</td>
+            </tr>
+            <tr>
+              <th>⇧⌥⌘PgUp</th>
+              <td>Column (box) selection page up</td>
+            </tr>
+            <tr>
+              <th>⇧⌥⌘PgDn</th>
+              <td>Column (box) selection page down</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Rich languages editing</h3>
+
+        <table class="shortcut">
+          <tbody>
+            <tr>
+              <th>⌃Space, ⌘I</th>
+              <td>Trigger suggestion</td>
+            </tr>
+            <tr>
+              <th>⇧⌘Space</th>
+              <td>Trigger parameter hints</td>
+            </tr>
+            <tr>
+              <th>⇧⌥F</th>
+              <td>Format document</td>
+            </tr>
+            <tr>
+              <th>⌘K ⌘F</th>
+              <td>Format selection</td>
+            </tr>
+            <tr>
+              <th>F12</th>
+              <td>Go to Definition</td>
+            </tr>
+            <tr>
+              <th>⌥F12</th>
+              <td>Peek Definition</td>
+            </tr>
+            <tr>
+              <th>⌘K F12</th>
+              <td>Open Definition to the side</td>
+            </tr>
+            <tr>
+              <th>⌘.</th>
+              <td>Quick Fix Shift+F12 Show References</td>
+            </tr>
+            <tr>
+              <th>⇧F12</th>
+              <td>Show References</td>
+            </tr>
+            <tr>
+              <th>F2</th>
+              <td>Rename Symbol</td>
+            </tr>
+            <tr>
+              <th>⌘K ⌘X</th>
+              <td>Trim trailing whitespace</td>
+            </tr>
+            <tr>
+              <th>⌘K M</th>
+              <td>Change file language</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Editor management</h3>
+
+        <table class="shortcut">
+          <tbody>
+            <tr>
+              <th>⌘W</th>
+              <td>Close editor</td>
+            </tr>
+            <tr>
+              <th>⌘K F</th>
+              <td>Close folder</td>
+            </tr>
+            <tr>
+              <th>⌘\</th>
+              <td>Split editor</td>
+            </tr>
+            <tr>
+              <th>⌘1 / ⌘2 / ⌘3</th>
+              <td>Focus into 1<sup>st</sup>, 2<sup>nd</sup> or 3<sup>rd</sup> editor group</td>
+            </tr>
+            <tr>
+              <th>⌘K ⌘← / ⌘K ⌘→</th>
+              <td>Focus into previous / next editor group</td>
+            </tr>
+            <tr>
+              <th>⌘K ⇧⌘← / ⌘K ⇧⌘→</th>
+              <td>Move editor left / right</td>
+            </tr>
+            <tr>
+              <th>⌘K ← / ⌘K →</th>
+              <td>Move active editor group</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="column">
+        <h3>File management</h3>
+        <table class="shortcut">
+          <tbody>
+            <tr>
+              <th>⌘N</th>
+              <td>New File</td>
+            </tr>
+            <tr>
+              <th>⌘O</th>
+              <td>Open File...</td>
+            </tr>
+            <tr>
+              <th>⌘S</th>
+              <td>Save</td>
+            </tr>
+            <tr>
+              <th>⇧⌘S</th>
+              <td>Save As...</td>
+            </tr>
+            <tr>
+              <th>⌥⌘S</th>
+              <td>Save All</td>
+            </tr>
+            <tr>
+              <th>⌘W</th>
+              <td>Close</td>
+            </tr>
+            <tr>
+              <th>⌘K ⌘W</th>
+              <td>Close All</td>
+            </tr>
+            <tr>
+              <th>⇧⌘T</th>
+              <td>Reopen closed editor</td>
+            </tr>
+            <tr>
+              <th>⌘K Enter</th>
+              <td>Keep preview mode editor open</td>
+            </tr>
+            <tr>
+              <th>⌃Tab / ⌃⇧Tab</th>
+              <td>Open next / previous</td>
+            </tr>
+            <tr>
+              <th>⌘K P</th>
+              <td>Copy path of active file</td>
+            </tr>
+            <tr>
+              <th>⌘K R</th>
+              <td>Reveal active file in Finder</td>
+            </tr>
+            <tr>
+              <th>⌘K O</th>
+              <td>Show active file in new window / instance</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Display</h3>
+
+        <table class="shortcut">
+          <tbody>
+            <tr>
+              <th>⌃⌘F</th>
+              <td>Toggle full screen</td>
+            </tr>
+            <tr>
+              <th>⌥⌘0</th>
+              <td>Toggle editor layout (horizontal / vertical)</td>
+            </tr>
+            <tr>
+              <th>⌘= / ⇧⌘-</th>
+              <td>Zoom in / out</td>
+            </tr>
+            <tr>
+              <th>⌘B</th>
+              <td>Toggle Sidebar visibility</td>
+            </tr>
+            <tr>
+              <th>⇧⌘E</th>
+              <td>Show Explorer / Toggle focus</td>
+            </tr>
+            <tr>
+              <th>⇧⌘F</th>
+              <td>Show Search</td>
+            </tr>
+            <tr>
+              <th>⌃⇧G</th>
+              <td>Show Source Control</td>
+            </tr>
+            <tr>
+              <th>⇧⌘D</th>
+              <td>Show Debug</td>
+            </tr>
+            <tr>
+              <th>⇧⌘X</th>
+              <td>Show Extensions</td>
+            </tr>
+            <tr>
+              <th>⇧⌘H</th>
+              <td>Replace in files</td>
+            </tr>
+            <tr>
+              <th>⇧⌘J</th>
+              <td>Toggle Search details</td>
+            </tr>
+            <tr>
+              <th>⇧⌘U</th>
+              <td>Show Output panel</td>
+            </tr>
+            <tr>
+              <th>⇧⌘V</th>
+              <td>Open Markdown preview</td>
+            </tr>
+            <tr>
+              <th>⌘K V</th>
+              <td>Open Markdown preview to the side</td>
+            </tr>
+            <tr>
+              <th>⌘K Z</th>
+              <td>Zen Mode (Esc Esc to exit)</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Debug</h3>
+
+        <table class="shortcut">
+          <tbody>
+            <tr>
+              <th>F9</th>
+              <td>Toggle breakpoint</td>
+            </tr>
+            <tr>
+              <th>F5</th>
+              <td>Start / Continue</td>
+            </tr>
+            <tr>
+              <th>F11 / ⇧F11</th>
+              <td>Step into / out</td>
+            </tr>
+            <tr>
+              <th>F10</th>
+              <td>Step over</td>
+            </tr>
+            <tr>
+              <th>⇧F5</th>
+              <td>Stop</td>
+            </tr>
+            <tr>
+              <th>⌘K ⌘I</th>
+              <td>Show hover</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script>
+      var timer = 0;
+      function setSize() {
+        var viewWidth = window.innerWidth;
+        var viewHeight = window.innerHeight;
+        var html = document.getElementsByTagName('html')[0];
+        var fontSize = Math.min(viewWidth * 0.008, viewHeight * 0.012);
+        html.style.fontSize = String(fontSize) + 'px';
+      }
+      setSize();
+      window.onresize = function() {
+        if (timer > 0) {
+          clearTimeout(timer);
+        }
+        timer = setTimeout(setSize, 200);
+      };
+    </script>
+  </body>
+</html>
