@@ -11,4 +11,5 @@ Inspiration from [honai's version](https://github.com/honai/vscode-shortcuts-wal
 ***
 
 If there are any inaccuracies, issues, suggestions... feel free to create a [new issue](https://github.com/realhuman101/vscode-shortcuts/issues)  
+  
 Also feel free to `fork` this repository and create a version of your own
