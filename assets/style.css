@@ -114,3 +114,14 @@ body {
 	cursor: pointer;
 	opacity: .7;
 }
+
+label {
+	font-size: 20px;
+}
+
+#color {
+	border: 1px white solid;
+	border-radius: 5px;
+	width: 20px;
+	height: 20px;
+}
